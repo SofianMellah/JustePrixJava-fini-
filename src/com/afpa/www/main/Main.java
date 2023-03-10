@@ -13,6 +13,7 @@ public class Main {
 
         Random Aleatoire = new Random();
         int nombreAleatoire = Aleatoire.nextInt(100) + 1;
+        System.out.println(nombreAleatoire);
         int sommeUtilisateur = 0;
         System.out.println("Renseignez votre nombre");
         sommeUtilisateur = sc.nextInt();

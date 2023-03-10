@@ -51,16 +51,15 @@ public class JustePrix {
 
             /* Début nombre exact */
             else if (sommeUtilisateur == nombreAleatoire) {
-                System.out.println("gg vous avez trouvé en " + compteurTentative + " tentative(s)");
-                ++limiteTentative;
                 ++compteurTentative;
+                System.out.println("Bien jouer ! Vous avez trouvé en " + compteurTentative + " tentative(s)");
                 break;
             }
             /* Fin nombre exact */
 
             /* Début échec au bout de 10 tentatives */
             if (limiteTentative > 9) {
-                System.out.println("T'as perdu");
+                System.out.println("Vous avez perdu");
             }
             /* Fin échec au bout de 10 tentatives */
             Scanner sc = new Scanner(System.in);
